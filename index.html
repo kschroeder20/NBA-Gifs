@@ -4,22 +4,41 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page Title</title>
+        <title>NBA Gifs</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
         <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
-        <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous">
+
+
+
     </head>
 
     <body>
         <div class='container-fluid'>
             <div class="row">
+                <div class="col-12" id="header-row">
+                    <h1>NBA Gifs</h1>
+                    <p>Click a topic to see NBA gifs that relate</p>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-12" id="topic-row"></div>
             </div>
             <div class="row">
-                <div class="col-12" id="search-bar"></div>
+                <div class="col-12" id="search-bar">
+                    <div class="form-group">
+                        <label id='new-topic-label'>Add New NBA Topic</label>
+                        <input type="text" class="form-control" id="input-text" placeholder="i.e. 'Slam Dunk'">
+                    </div>
+                    <button id='submit-button' type="submit" class="btn btn-success">Submit</button>
+                </div>
             </div>
             <div class="row">
                 <div class="col-12" id="gif-row"></div>

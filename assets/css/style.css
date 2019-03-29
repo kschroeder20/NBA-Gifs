@@ -1,9 +1,39 @@
+
+body,
+html{
+    background: url('../images/hardwoodbackground.jpg');
+    background-size: cover;
+}
+.container-fluid{
+    font-family: 'Karla',
+    sans-serif;
+    color: white;
+    
+}
+
+#header-row h1{
+    font-weight: bolder;
+    font-size: 75px;
+    text-shadow: 2px 2px black;
+}
+
+#header-row p,
+#new-topic-label {
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+}
+
 .topic {
     margin: 5px;
 }
 .gif{
     margin: 5px;
 }
-.hide{
-    display: none;
+#search-bar,
+#gif-row{
+    margin-top: 20px;
+}
+
+.btn{
+    background-color: red;
 }
