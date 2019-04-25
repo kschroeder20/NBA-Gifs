@@ -8,7 +8,7 @@
 * You can add a new action from the form on the top of the page. The actions will be added to the array of actions and added as a new button
 * The rating of each gif will also appear on the page.
 
-#Technology Used:
+# Technology Used:
 * HTML
 * CSS (Bootstrap)
 * Javascript (AJAX and jQuery)
